@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #609966;
+    align-items: center;
+    padding: 3vh 7vw;
+    color: #EDF1D6;
+}
+
+.dropdown-btn-menu{
+    display: none;
+}
+
+a{
+    color: #EDF1D6;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    gap: 7vw;
+}
+
+@media screen and (max-width: 800px){
+    nav{
+        display: none;
+    }
+    .dropdown-btn-menu{
+        display: flex;
+        border: none;
+        background-color: transparent;
+        color: #EDF1D6;
+        font-size: 25px;
+    }
+}

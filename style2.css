@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(70,8,178);
+    background: linear-gradient(61deg, rgba(70,8,178,1) 0%, rgba(121,24,208,1) 100%);
+    min-height: 100vh;
+}
+
+.form{
+    width: 300px;
+    border: 2px none;
+    padding: 20px;
+    background: white;
+    margin-top: 200px;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 70px auto;
+    gap: 25px;
+}
+
+.boton1{
+    background: rgb(139,86,233);
+    background: linear-gradient(87deg, rgba(139,86,233,1) 0%, rgba(72,117,230,1) 100%);
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.boton2{
+    background-color: #53A2EB;
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: start;
+    border-radius: 5px;
+}
+
+.boton3{
+    background-color: #203F77;
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: start;
+    border-radius: 5px;
+}
+
+.boton4{
+    background: #808080;
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: start;
+    border-radius: 5px;
+}
+
+input{
+    border: none;
+}
+
+h4{
+    text-align: center;
+    color: #808080;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+a{
+    text-align: center;
+}
+
+.icon-1{
+    margin-right: 20px;
+}
+
+.subrayado{
+    text-decoration: underline #7918d0 3px;
+}

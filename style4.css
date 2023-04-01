@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Black Ops One', cursive;
+}
+
+header{
+    background-color: black;
+    padding: 3vh 7vw;
+    color: #EDF1D6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100%;
+    font-family: 'Black Ops One', cursive;
+    gap: 5vw;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+}
+
+nav a{
+    font-size: 14px;
+}
+
+button{
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    border-radius: 23px;
+    font-size: 14px;
+}
+
+.button-contact{
+    background-color: black;
+    color: white;
+    border: solid 2px white;
+}
+
+.button-hexa{
+    background: rgb(24,35,208);
+    background: linear-gradient(140deg, rgba(24,35,208,1) 0%, rgba(173,8,178,1) 91%);
+    color: white;
+    border: none;
+}
+
+header h2 i{
+    font-size: 45px;
+    margin-right: 7px;
+    -webkit-text-stroke: 3px transparent;
+}
+
+header h2{
+    display: flex;
+    align-items: center;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-family: 'Black Ops One', cursive;
+    font-size: 2.3rem;
+    background-image: linear-gradient(320deg, rgba(181,19,94,1) 42%, rgba(85,21,202,1) 88%);
+}

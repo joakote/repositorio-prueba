@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(189,17,17);
+    background: linear-gradient(167deg, rgba(189,17,17,1) 0%, rgba(8,18,140,1) 100%);;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.carta{
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid;
+    padding: 20px;
+    background: rgb(250,233,180);
+    font-family: 'Lato', sans-serif;
+}
+
+.contenedorCartas{
+    display:flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap; 
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
